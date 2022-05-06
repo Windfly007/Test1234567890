@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CN_PPA Version="RW6">
+    <TreeNode Name="CN_PPA" Ratio="False">
+        <Station_Type Name="Station_Type*" Ratio="False">
+            <Station Name="Exterior" Ratio="True"/>
+            <Station Name="Interior" Ratio="True"/>
+        </Station_Type>
+        <Robot_Name Name="Robot_Name*" Ratio="False">
+            <Robot Name="IRB5400" Ratio="True"/>
+            <Robot Name="IRB5500" Ratio="True"/>
+            <Robot Name="IRB5350" Ratio="True"/>
+        </Robot_Name>
+        <Robot_Type Name="Robot_Type*" Ratio="False">
+            <RobotType Name="Opener" Ratio="True"/>            
+            <RobotType Name="Painter" Ratio="True"/>
+            <RobotType Name="Checker" Ratio="True"/>
+        </Robot_Type>
+        <Application_Type Name="Application_Type*" Ratio="False">
+            <Application Name="APP_1K" Ratio="True"/>
+            <Application Name="APP_AB_1K" Ratio="True"/>
+            <Application Name="APP_Dual_1K" Ratio="True"/>
+            <Application Name="APP_2K" Ratio="True"/>
+            <Application Name="APP_Dual_2K" Ratio="True"/>
+            <Application Name="APP_CBS" Ratio="True"/>
+            <Application Name="None" Ratio="True"/>
+        </Application_Type>
+        <Atomizer_Type Name="Atomizer_Type*" Ratio="False">
+            <Application Name="Gun" Ratio="True"/>
+            <Application Name="Bell" Ratio="True"/>
+            <Application Name="None" Ratio="True"/>
+        </Atomizer_Type>
+        <Cavity Name="Cavity*" Ratio="False">
+            <MC Name="0Cavity" Ratio="True"/>
+            <MC Name="1Cavity" Ratio="True"/>
+            <MC Name="2Cavity" Ratio="True"/>
+        </Cavity>
+        <Hv_Option Name="Hv_Option*" Ratio="False">
+            <HvOption Name="With_HV" Ratio="True"/>
+            <HvOption Name="WithOut_HV" Ratio="True"/>
+            <HvOption Name="Customer_HV" Ratio="True"/>
+        </Hv_Option>
+        <Control_Type Name="Control_Type*" Ratio="False">
+            <ControlType Name="Stop_Go" Ratio="True"/>
+            <ControlType Name="ConveyorTracking" Ratio="True"/>
+        </Control_Type>
+        <Network_Type Name="Network_Type*" Ratio="False">
+            <IOBUS Name="Profibus" Ratio="True"/>
+            <IOBUS Name="CClink" Ratio="True"/>
+            <IOBUS Name="DN_Internal_Anybus" Ratio="True"/>
+            <IOBUS Name="PN_Internal_Anybus" Ratio="True"/>
+            <IOBUS Name="PN_Internal_Device" Ratio="True"/>
+            <IOBUS Name="EN_Internal_Anybus" Ratio="True"/>
+        </Network_Type>
+        <PIB_IO Name="StandardPIBIO" Ratio="False">
+            <IOBUS Name="1K_Bell" Ratio="True"/>
+            <IOBUS Name="1K_Gun" Ratio="True"/>
+            <IOBUS Name="2K_Bell" Ratio="True"/>
+            <IOBUS Name="2K_Gun" Ratio="True"/>
+        </PIB_IO>
+        <SafeMove Name="SafeMove" Ratio="True">
+            <SafeDevice Name="ProfiSafe" Ratio="True"/>
+        </SafeMove>
+        <Customized Name="Customized" Ratio="False"></Customized>
+        <MoveHome Name="MoveHome" Ratio="False">
+            <MoveHome Name="NormalHome" Ratio="True"/>
+            <MoveHome Name="SmartHome" Ratio="True"/>
+            <MoveHome Name="AdvSmartHome" Ratio="True"/>
+        </MoveHome>
+        <ExtaxCheck Name="ExtaxCheck" Ratio="False">
+            <AxisCheck Name="7_AxisCheck" Ratio="True"/>
+        </ExtaxCheck>
+        <PntPush Name="PntPush" Ratio="False">
+            <PntPush Name="PntPush_1K" Ratio="True"/>
+            <PntPush Name="PntPush_2K" Ratio="True"/>
+        </PntPush>
+        <NonMotion Name="NonMotion" Ratio="False">
+            <NonMotionExec Name="NonMotionExec" Ratio="True"/>
+        </NonMotion>
+        <BrushFactor Name="CustBrushFactor" Ratio="False">
+            <AxisCheck Name="BrushFactor" Ratio="True"/>
+        </BrushFactor>
+        <ColorChanger Name="ColorChanger" Ratio="False">
+            <IndustraRCC Name="RCC_Industra" Ratio="True">
+                <IndustraRCC Name="Industra_RCC_1K" Ratio="True"/>
+                <IndustraRCC Name="Industra_RCC_2K" Ratio="True"/>
+            </IndustraRCC>
+            <ABBRCC Name="RCC_ABB" Ratio="True">
+                <IndustraRCC Name="ABB_RCC_1K" Ratio="True"/>
+                <IndustraRCC Name="ABB_RCC_2K" Ratio="True"/>
+            </ABBRCC>
+            <TraditionCC Name="PAP_MPAC" Ratio="True">
+                <IndustraRCC Name="1K_PreStartMC" Ratio="True"/>
+                <IndustraRCC Name="1K_Dual_Line" Ratio="True"/>
+                <IndustraRCC Name="1K_AB_Line" Ratio="True"/>
+                <IndustraRCC Name="2K_PreStartMC" Ratio="True"/>
+                <IndustraRCC Name="2K_Dual_Cat" Ratio="True"/>
+                <IndustraRCC Name="2K_Dual_Resin" Ratio="True"/>
+                <IndustraRCC Name="2K_Dual_Resin_Cat" Ratio="True"/>
+            </TraditionCC>
+        </ColorChanger>
+        <RestoreCavityStatus Name="RestoreCavityStatus" Ratio="False">     
+            <RestoreCavity Name="RestoreCavity_2K" Ratio="True"/>
+            <RestoreCavity Name="RestoreCavity_3K" Ratio="True"/>
+        </RestoreCavityStatus>
+        <AutoHV Name="AutoSetHV" Ratio="False">
+            <AutoHV Name="AutoHV_BYD" Ratio="True"/>
+        </AutoHV>
+        <Clean Name="Clean" Ratio="False">
+            <Clean Name="BellClean" Ratio="False">
+                <Clean Name="No_Cleaner" Ratio="True"/>
+                <Clean Name="ABB_6Ch_1K" Ratio="True"/>
+                <Clean Name="ABB_7Ch_2K" Ratio="True"/>
+                <Clean Name="CCC" Ratio="True"/>
+                <Clean Name="HD_INT" Ratio="True"/>
+                <Clean Name="HD_EXT" Ratio="True"/>
+                <Clean Name="HD_AC09" Ratio="True"/>
+                <Clean Name="HD_AC10" Ratio="True"/>
+                <Clean Name="HD_AC1000" Ratio="True"/>
+                <Clean Name="JP_CE" Ratio="True"/>
+                <Clean Name="Industra_INT" Ratio="True"/>
+                <Clean Name="Industra_EXT" Ratio="True"/>
+            </Clean>
+            <Clean Name="HubClean" Ratio="False"/>
+            <Clean Name="DumpClean" Ratio="False"/>
+            <Clean Name="GunClean" Ratio="False"/>
+            <Clean Name="ToolClean" Ratio="False"/>
+        </Clean>
+        <SolvPS_Sup Name="SolvPS_Sup" Ratio="False">
+             <Clean Name="PumpSensor" Ratio="True">
+                <Clean Name="1K" Ratio="True"/>
+                <Clean Name="2K" Ratio="True"/>
+             </Clean>
+             <Clean Name="SolventPSSensor_DI" Ratio="True"/>
+             <Clean Name="SolventPSSensor_AI" Ratio="True"/>
+        </SolvPS_Sup>
+        <ReleasePressure Name="ReleasePressure" Ratio="False">
+            <ReleasePressure_1K Name="ReleasePressure_1K" Ratio="True"/>
+        </ReleasePressure>
+        <BrakeRelease Name="BrakeRelease" Ratio="False">
+            <BrakeRelease_7Axis Name="BrakeRelease_7Axis" Ratio="True"/>
+            <BrakeRelease_6Axis Name="BrakeRelease_6Axis" Ratio="True"/>
+            <BrakeRelease_3Axis Name="BrakeRelease_3Axis" Ratio="True"/>
+        </BrakeRelease>
+        <ExtentsionFunc Name="ServicePosControl" Ratio="False">
+             <PositionCode Name="ServicePosControl" Ratio="False"/>
+        </ExtentsionFunc>
+        <AutoShape Name="AutoShapeAir" Ratio="False">
+            <AutoShape Name="AutoShapeAir_Bell" Ratio="True"/>
+        </AutoShape>
+        <HvTest Name="HvTest" Ratio="False">
+            <HvTest Name="DynamicHvTest" Ratio="False"/>
+            <HvTest Name="StaticHvTest" Ratio="False"/>
+        </HvTest>
+        <PumpShaftSup Name="PumpShaftSup" Ratio="False">
+            <PumpShaftSup Name="ShaftSensor" Ratio="True"/>
+            <PumpShaftSup Name="PumpSesnor" Ratio="True"/>
+        </PumpShaftSup>
+        <Potlife Name="Potlife" Ratio="False">
+            <Potlife Name="Potlife_1K" Ratio="True"/>
+        </Potlife>
+        <PCVControl Name="PCVControl" Ratio="False">
+            <PCVControl Name="PCVOpenControl" Ratio="True"/>
+        </PCVControl>
+        <Lubricate Name="Lubricate" Ratio="False">
+            <PCVControl Name="Lubricate_Rail" Ratio="True"/>
+        </Lubricate>
+        <LeakageCheck Name="LeakageCheck" Ratio="False">
+            <LeakageCheck Name="LeakageCheck_ABBRCC" Ratio="True"/>
+        </LeakageCheck>
+        <PainterOpener Name="PainterOpener*" Ratio="False">
+            <OpenerPainter Name="PainterOpener" Ratio="True"/>
+        </PainterOpener>
+        <ExtentsionFunc Name="Extension" Ratio="False">
+             <PositionCode Name="PositionCode" Ratio="False"/>
+        </ExtentsionFunc>
+    </TreeNode>
+    <Standard>
+        <StandardAll Name="StandardAll">
+            <StandardOption Name="IdResolve"/>
+            <StandardOption Name="RobSysData"/>
+            <StandardOption Name="LoadModule"/>
+            <StandardOption Name="Common"/>
+            <StandardOption Name="WorldZoneUser"/>
+            <StandardOption Name="Programs"/>
+            <StandardOption Name="config"/>  
+            <StandardOption Name="Interlock"/>
+            <StandardOption Name="ReadNextJob"/> 
+            <StandardOption Name="CheckJobMode"/> 
+            <StandardOption Name="SocketCmd"/>
+            <StandardOption Name="Errlog"/>  
+            <StandardOption Name="PrepareProgram"/>
+            <StandardOption Name="Workflowstatus"/>
+            <StandardOption Name="JobInfoToPLC"/>
+            <StandardOption Name="SytemCheck"/>
+            <StandardOption Name="Simulation"/>
+        </StandardAll>
+        <Exterior Name="Exterior"></Exterior>
+        <Interior Name="Interior"></Interior>
+        <IRB5400 Name="IRB5400">    
+            <StandardOption Name="SoftMove\TuneServo\"/>       
+        </IRB5400>
+        <IRB5500 Name="IRB5500">
+            <StandardOption Name="SoftMove\TuneServo\"/>
+        </IRB5500>
+        <IRB5350 Name="IRB5350">
+            <StandardOption Name="Programs_IRB5350"/>
+            <StandardOption Name="SoftMove\TuneServo\"/>
+        </IRB5350>
+        <Opener Name="Opener">
+            <StandardOption Name="IntOpenerControl"/>
+            <StandardOption Name="IntGripperControl"/>
+            <StandardOption Name="Programs_opener"/>
+            <StandardOption Name="LoadSequence\Opener"/>              
+            <StandardOption Name="IntOpenerRepair"/>
+        </Opener>
+        <Opener_Control_Stop_Go Name="Opener*Stop_Go">
+            <StandardOption Name="IntOpenerControl\StopGo"/>
+        </Opener_Control_Stop_Go>
+        <Opener_Control_ConveyorTracking Name="Opener*ConveyorTracking">
+            <StandardOption Name="IntOpenerControl\Tracking"/>
+        </Opener_Control_ConveyorTracking>
+        <Opener_Control_ConveyorTracking_MasterSlave Name="Opener*ConveyorTracking*MasterSlave">
+            <StandardOption Name="IntOpenerControl\TrackingMaster"/>
+        </Opener_Control_ConveyorTracking_MasterSlave>
+        <PainterOpener_Stop_Go Name="PainterOpener*Stop_Go">
+            <StandardOption Name="IntOpenerControl\StopGo"/>
+        </PainterOpener_Stop_Go>
+        <PainterOpener_ConveyorTracking Name="PainterOpener*ConveyorTracking">
+            <StandardOption Name="IntOpenerControl\Tracking"/>
+        </PainterOpener_ConveyorTracking>
+        <Atomizer_Func Name="Bell">
+            <StandardOption Name="BellCupCk"/>
+        </Atomizer_Func>
+        <MC_1K_1C Name="APP_1K*1Cavity">
+            <StandardOption Name="MCTemplate\MC_1K_1Cavity"/>
+        </MC_1K_1C>
+        <MC_1K_2C Name="APP_1K*2Cavity">
+            <StandardOption Name="MCTemplate\MC_1K_2Cavitys"/>
+        </MC_1K_2C>        
+        <MC_2K Name="APP_2K">
+            <StandardOption Name="MCTemplate\MC_2K"/>
+            <StandardOption Name="MixerForceFlush"/>
+        </MC_2K>
+        <MC_CBS Name="APP_CBS">
+            <StandardOption Name="MCTemplate\MC_CBS"/>
+            <StandardOption Name="CBS"/>
+        </MC_CBS>
+        <Painter Name="Painter">            
+            <StandardOption Name="AppInitial"/>
+            <StandardOption Name="AppCalib"/>
+            <StandardOption Name="BrushLoadCheck"/>
+            <StandardOption Name="LoadSequence\Painter"/>
+            <StandardOption Name="Programs_Painter"/>
+            <StandardOption Name="SetGlobalBrush"/>
+            <StandardOption Name="SpecialCleanFill"/>          
+            <StandardOption Name="ProcessFlow"/>
+            <StandardOption Name="FluidControl"/>
+            <StandardOption Name="MCsub"/>
+            <StandardOption Name="WaitPosition"/>
+            <StandardOption Name="ValveCheck"/>
+        </Painter>
+        <Checker Name="Checker">
+            <StandardOption Name="PaintChecker"/>
+            <StandardOption Name="Programs_Checker"/>
+        </Checker>
+        <APP_1K Name="APP_1K">
+            <StandardOption Name="SpecialCleanFill\FillAirAndSolv_1K"/>
+            <StandardOption Name="AppAlarm"/>
+        </APP_1K>
+        <APP_2K Name="APP_2K">
+            <StandardOption Name="MixRatio"/>
+            <StandardOption Name="SpecialCleanFill\FillAirAndSolv_2K"/>
+            <StandardOption Name="AppAlarm"/>
+        </APP_2K>
+        <APP_AB_1K Name="APP_AB_1K">
+            <StandardOption Name="SpecialCleanFill\FillAirAndSolv_AB1K"/>
+            <StandardOption Name="AppAlarm"/>
+        </APP_AB_1K>
+        <APP_Dual1K Name="APP_Dual_1K">
+            <StandardOption Name="SpecialCleanFill\FillAirAndSolv_Dual1K"/>
+            <StandardOption Name="AppAlarm"/>
+        </APP_Dual1K>
+        <APP_Dual2K Name="APP_Dual_2K">
+            <StandardOption Name="MixRatio"/>
+            <StandardOption Name="AppAlarm"/>
+        </APP_Dual2K>
+        <None Name="None">
+        </None>
+        <Has_HV_Exterior Name="With_HV">
+            <StandardOption Name="HVSignal\With HV"/>
+            <StandardOption Name="HvErrorStop"/>
+            <standardOption Name="HvInterlock"/>
+        </Has_HV_Exterior>
+        <No_HV Name="Without_HV">
+            <StandardOption Name="HVSignal\No HV"/>
+        </No_HV>
+        <Stop_Go Name="Stop_Go">
+        </Stop_Go>
+        <ConveyorTracking Name="ConveyorTracking">
+            <StandardOption Name="CnvSim"/>
+            <StandardOption Name="C1positionFd"/>
+            <StandardOption Name="JobQueueControl"/>
+            <StandardOption Name="cnvsync"/>
+        </ConveyorTracking>
+        <Profibus Name="Profibus">
+        </Profibus>
+        <Profinet Name="Profinet">
+        </Profinet>
+        <Painter_Interior_Stop_Go Name="Painter*Interior*Stop_Go">
+            <StandardOption Name="IntPainterControl\StopGo"/>
+        </Painter_Interior_Stop_Go>
+        <Painter_Interior_ConveyorTracking Name="Painter*Interior*ConveyorTracking">
+            <StandardOption Name="IntPainterControl\Tracking"/>
+        </Painter_Interior_ConveyorTracking>
+        <IRB5350_Interior_ConveyorTracking Name="IRB5350*Interior*ConveyorTracking">
+            <StandardOption Name="IntrGripperAir"/>
+        </IRB5350_Interior_ConveyorTracking>
+        <Interior_ConveyorTracking Name="Interior*ConveyorTracking">
+            <StandardOption Name="IntCommonVars\tracking"/>
+        </Interior_ConveyorTracking>
+        <Interior_Stop_Go Name="Interior*Stop_Go">
+            <StandardOption Name="IntCommonVars\stopgo"/>
+        </Interior_Stop_Go>
+        <Painter_ConveyorTracking Name="Painter*ConveyorTracking">
+            <StandardOption Name="CnvHold"/>
+        </Painter_ConveyorTracking>
+        <PainterOpener Name="PainterOpener">
+            <StandardOption Name="IntOpenerControl"/>
+            <StandardOption Name="IntGripperControl"/>                   
+        </PainterOpener>
+    </Standard>
+    <Required>
+        <Station_Type Name="Station_Type"/>
+        <Robot_Name Name="Robot_Name"/>
+        <Robot_Type Name="Robot_Type"/>
+        <Application_Type Name="Application_Type"/>
+        <Hv_Option Name="Hv_Option"/>
+        <Control_Type Name="Control_Type"/>
+        <Network_Type Name="Network_Type"/>
+        <Cavity_Type Name="Cavity"/>       
+    </Required>
+    <Conflict>
+        <IRB5500 Name="IRB5500"></IRB5500>
+        <IRB5400 Name="IRB5400"></IRB5400>
+        <IRB5350 Name="IRB5350">
+            <ConflictOption Name="Exterior"/>
+            <ConflictOption Name="Potlife_1K"/>
+            <ConflictOption Name="PCVOpenControl"/>
+            <ConflictOption Name="PumpShaftSup"/>
+            <ConflictOption Name="DynamicHvTest"/>
+            <ConflictOption Name="StaticHvTest"/>
+            <ConflictOption Name="Has_HV"/>
+            <ConflictOption Name="ReleasePressure_1K"/>
+            <ConflictOption Name="SolventPS"/>
+            <ConflictOption Name="BellClean"/>
+            <ConflictOption Name="HubClean"/>
+            <ConflictOption Name="DumpClean"/>
+            <ConflictOption Name="GunClean"/>
+            <ConflictOption Name="Industra_RCC_1K"/>
+            <ConflictOption Name="Industra_RCC_2K"/>
+            <ConflictOption Name="NonMotion"/>
+            <ConflictOption Name="PntPush_1K"/>
+            <ConflictOption Name="PntPush_2K"/>
+            <ConflictOption Name="APP_1K"/>
+            <ConflictOption Name="APP_2K"/>
+        </IRB5350>
+        <Exterior Name="Exterior">
+            <ConflictOption Name="IRB5350"/>
+            <ConflictOption Name="Opener"/>
+        </Exterior>
+        <Interior Name="Interior">
+        </Interior>
+        <Opener Name="Opener">
+            <ConflictOption Name="Exterior"/>
+            <ConflictOption Name="Potlife_1K"/>
+            <ConflictOption Name="PCVOpenControl"/>
+            <ConflictOption Name="PumpShaftSup"/>
+            <ConflictOption Name="DynamicHvTest"/>
+            <ConflictOption Name="StaticHvTest"/>
+            <ConflictOption Name="Has_HV"/>
+            <ConflictOption Name="ReleasePressure_1K"/>
+            <ConflictOption Name="SolventPS"/>
+            <ConflictOption Name="BellClean"/>
+            <ConflictOption Name="HubClean"/>
+            <ConflictOption Name="DumpClean"/>
+            <ConflictOption Name="GunClean"/> 
+            <ConflictOption Name="Industra_RCC_1K"/>
+            <ConflictOption Name="Industra_RCC_2K"/>
+            <ConflictOption Name="NonMotion"/>
+            <ConflictOption Name="PntPush_1K"/>
+            <ConflictOption Name="PntPush_2K"/>
+            <ConflictOption Name="APP_1K"/>
+            <ConflictOption Name="APP_2K"/>
+        </Opener>
+        <Painter Name="Painter">
+            <ConflictOption Name="IRB5350"/>
+            <ConflictOption Name="ToolClean"/>
+        </Painter>
+        <APP_1K Name="APP_1K">
+            <ConflictOption Name="IRB5350"/>
+            <ConflictOption Name="Opener"/>
+            <ConflictOption Name="Checker"/>
+            <ConflictOption Name="GripperAir"/>
+            <ConflictOption Name="PntPush_2K"/>
+            <ConflictOption Name="Industra_RCC_2K"/>
+        </APP_1K>
+        <APP_2K Name="APP_2K">
+            <ConflictOption Name="IRB5350"/>
+            <ConflictOption Name="Opener"/>
+            <ConflictOption Name="Checker"/>
+            <ConflictOption Name="GripperAir"/>
+            <ConflictOption Name="PntPush_1K"/>
+            <ConflictOption Name="PntPush_1K"/>
+            <ConflictOption Name="Industra_RCC_1K"/>
+            <ConflictOption Name="ReleasePressure_1K"/>
+            <ConflictOption Name="Potlife_1K"/>
+        </APP_2K>
+        <Has_HV Name="Has_HV">
+            <ConflictOption Name="IRB5350"/>
+            <ConflictOption Name="Opener"/>
+            <ConflictOption Name="Checker"/>
+            <ConflictOption Name="GripperAir"/>
+            <ConflictOption Name="None"/>
+            <ConflictOption Name="ToolClean"/>
+        </Has_HV>
+        <No_HV Name="No_HV">
+            <ConflictOption Name="DynamicHvTest"/>
+            <ConflictOption Name="StaticHvTest"/>
+        </No_HV>
+        <Potlife_1K Name="Potlife_1K">
+            <ConflictOption Name="PntPush_2K"/>
+            <ConflictOption Name="Industra_RCC_2K"/>
+        </Potlife_1K>
+    </Conflict>
+</CN_PPA>
